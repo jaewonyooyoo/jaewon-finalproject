@@ -21,3 +21,14 @@
 // Import partials
 @import "nav";
 @import "jumbotron";
+
+$primary-color: gray;
+$secondary-color: black;
+
+h1, h5, h2, h6 {
+  font-family: 'Baskervville', serif;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif
+}
