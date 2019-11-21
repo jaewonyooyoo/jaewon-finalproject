@@ -1,7 +1,7 @@
 // Custom variable overrides
 // See node_modules/bootstrap/scss/_variables.scss
 
-// $body-bg: black;
+ $body-bg: #adb5bd;
 // $body-color: white;
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
@@ -22,13 +22,14 @@
 @import "nav";
 @import "jumbotron";
 
-$primary-color: gray;
-$secondary-color: black;
-
 h1, h5, h2, h6 {
   font-family: 'Baskervville', serif;
 }
 
 p {
   font-family: 'Times New Roman', Times, serif
+}
+
+.card {
+  background-color: #e9ecef;
 }
