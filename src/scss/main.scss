@@ -22,6 +22,10 @@
 @import "nav";
 @import "jumbotron";
 
+iframe {
+  padding-top: 1rem;
+}
+
 h1, h5, h2, h6 {
   font-family: 'Baskervville', serif;
 }
